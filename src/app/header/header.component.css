@@ -1,0 +1,1011 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #2575fc;
+    margin-bottom: 20px;
+}
+
+header {
+    background: linear-gradient(to right, #9460cb, #042969);
+    color: rgb(54, 43, 66);
+    text-align: left;
+    padding: 50px 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeInDown 1.5s ease;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+    animation: fadeInUp 1.5s ease;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+nav a {
+    color: #c79adc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+.container {
+    box-shadow: -9px 6px 6px rgba(0, 0, 0, 10);
+    border-radius: 1vh;
+    background-color: rgb(49, 43, 70);
+    width: 700px;
+    height: 550px;
+    left: -25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container-0 {
+    color: white;
+    position: absolute;
+    bottom: 35vh;
+    font-family: 'Times New Roman', Times, serif;
+    top: 12vh;
+    left: 4.5vw;
+    font-size: xx-large;
+    display: inline;
+}
+
+.container-1 {
+    color: white;
+    position: absolute;
+    bottom: 35vh;
+    font-family: 'Times New Roman', Times, serif;
+    top: 19vh;
+    left: 4.5vw;
+    font-size: xx-large;
+    display: inline;
+    font-style: italic;
+}
+
+.container-2 {
+    color: white;
+    position: absolute;
+    bottom: 35vh;
+    font-family: 'Times New Roman', Times, serif;
+    top: 28vh;
+    left: 4.5vw;
+    font-size: larger;
+    display: inline
+}
+
+.container-3 {
+    color: white;
+    position: absolute;
+    bottom: 35vh;
+    font-family: 'Times New Roman', Times, serif;
+    top: 33vh;
+    left: 4.5vw;
+    font-size: larger;
+    display: inline
+}
+
+.container-4 {
+    color: white;
+    position: absolute;
+    bottom: 35vh;
+    font-family: 'Times New Roman', Times, serif;
+    top: 38vh;
+    left: 4.5vw;
+    font-size: larger;
+    display: inline
+}
+
+.container-5 {
+    color: white;
+    position: absolute;
+    bottom: 35vh;
+    font-family: 'Times New Roman', Times, serif;
+    top: 43vh;
+    left: 4.5vw;
+    font-size: larger;
+    display: inline
+}
+
+.container-6 {
+    color: white;
+    position: absolute;
+    bottom: 35vh;
+    font-family: 'Times New Roman', Times, serif;
+    top: 48vh;
+    left: 4.5vw;
+    font-size: larger;
+    display: inline;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.sub-container {
+    background-image: url('../../assets/profile.jpg');
+    background-position: -5vh;
+    box-shadow: -10px 4px -8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color: rgb(244, 243, 243);
+    position: absolute;
+    top: 275px;
+    left: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10vh;
+}
+
+.sub-container h2 {
+    font-family: monospace;
+    position: relative;
+    top: 10vh;
+    left: -3vw;
+}
+
+.sub-container p {
+    font-family: monospace;
+    white-space: nowrap;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    right: 6vh;
+    color: rgb(34, 34, 62)
+}
+
+.sub-container:hover {
+    transform: translate(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    font-size: 75px;
+    position: relative;
+    top: 20vh;
+    left: -35vw;
+    text-shadow: 1vh 0vh 0 rgb(41, 40, 40);
+    color: rgb(194, 150, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-info {
+    position: relative;
+    top: -7vw;
+    left: 90vh;
+    padding: 30px;
+    background: #443a92;
+    box-shadow: 20px 15px 20px rgb(9, 9, 9);
+    border-radius: 1vw;
+    width: 800px;
+    height: 400px;
+    font-size: 2vh;
+    text-align: justify;
+    font-size: 3vh;
+    color: rgb(255, 237, 237);
+    line-height: 1.6;
+}
+
+.projects h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1vh 0vh 0 rgb(41, 40, 40);
+    font-size: 75px;
+    color: rgb(194, 150, 247);
+}
+
+.project-card-1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1.5px solid #0b0b0b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    position: relative;
+    top: 10vh;
+    gap: 2vw;
+    width: 30vw;
+    height: 10vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+}
+
+.project-card-1 a {
+    color: white;
+}
+
+.project-card-2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1.5px solid #0a0909;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    position: relative;
+    top: 15vh;
+    left: 65vh;
+    gap: 2vw;
+    width: 30vw;
+    height: 10vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+}
+
+.project-card-2 a {
+    color: white;
+}
+
+.project-card-3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1.5px solid #0a0a0a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    position: relative;
+    top: 20vh;
+    left: 130vh;
+    gap: 2vw;
+    width: 30vw;
+    height: 10vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+}
+
+.project-card-3 a {
+    color: white;
+}
+
+.project-card-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card-2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card-3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    width: 100vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    position: relative;
+    top: 40vh;
+    left: -10vh;
+    padding: 20px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact h2 {
+    position: relative;
+    font-size: 75px;
+    color: rgb(194, 150, 247);
+    text-shadow: 1vh 0vh 0 rgb(41, 40, 40);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 2vw;
+}
+
+.contact p {
+    font-size: 3vh;
+    gap: 50vh;
+    position: relative;
+}
+
+.email {
+    position: relative;
+    top: 10vw;
+    left: -14vw
+}
+
+.material-symbols-outlined {
+    font-size: 2vw;
+    position: relative;
+    top: 0.6vw;
+
+}
+
+.linkedin {
+    position: relative;
+    top: 10.3vw;
+    left: -10vw;
+}
+
+.linkedin a {
+    color: white;
+}
+
+.github {
+    position: relative;
+    top: 10.3vw;
+    left: -8vw;
+}
+
+.github a {
+    color: white
+}
+
+.fab fa-linkedin {
+    font-size: 4vh;
+    top: 1.5vh;
+    position: relative;
+}
+
+.fab fa-github {
+    position: relative;
+}
+
+footer {
+    position: relative;
+    bottom: -20vw;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add animations to the portfolio CSS */
+/* .example-spacer {
+    flex: 1 1 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    animation: fadeInUp 1.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+section h2 {
+    color: #2575fc;
+    margin-bottom: 20px;
+    animation: fadeInDown 1.5s ease;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section h2.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+header {
+    background: linear-gradient(to right, #9460cb, #042969);
+    color: rgb(54, 43, 66);
+    text-align: left;
+    padding: 50px 5px;
+    position: relative;
+    overflow: hidden;
+    animation: slideInLeft 1.5s ease;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+header.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeInDown 1.5s ease;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+header h1.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+    animation: fadeInUp 1.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+header p.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    animation: slideInRight 1.5s ease;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+nav.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+nav a {
+    color: #c79adc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.container {
+    box-shadow: -9px 6px 6px rgba(0, 0, 0, 10);
+    border-radius: 1vh;
+    background-color: rgb(49, 43, 70);
+    width: 700px;
+    height: 550px;
+    left: -25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: zoomIn 1.5s ease;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.container.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.sub-container {
+    background-image: url('../../assets/profile.jpg');
+    background-position: -5vh;
+    box-shadow: -10px 4px -8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color: rgb(244, 243, 243);
+    position: absolute;
+    top: 275px;
+    left: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10vh;
+    animation: fadeIn 1.5s ease;
+    opacity: 0;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.sub-container.visible {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.sub-container:hover {
+    transform: translate(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    font-size: 75px;
+    position: relative;
+    top: 20vh;
+    left: -35vw;
+    text-shadow: 1vh 0vh 0 rgb(41, 40, 40);
+    color: rgb(194, 150, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: fadeInUp 1.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.about.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-info {
+    position: relative;
+    top: -7vw;
+    left: 90vh;
+    padding: 30px;
+    background: #443a92;
+    box-shadow: 20px 15px 20px rgb(9, 9, 9);
+    border-radius: 1vw;
+    width: 800px;
+    height: 400px;
+    font-size: 2vh;
+    text-align: justify;
+    font-size: 3vh;
+    color: rgb(255, 237, 237);
+    line-height: 1.6;
+    animation: fadeInUp 1.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.about-info.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.projects h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1vh 0vh 0 rgb(41, 40, 40);
+    font-size: 75px;
+    color: rgb(194, 150, 247);
+    animation: fadeInDown 1.5s ease;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.projects h2.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-card-1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1.5px solid #0b0b0b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    position: relative;
+    top: 10vh;
+    gap: 2vw;
+    width: 30vw;
+    height: 10vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    animation: fadeInLeft 1.5s ease;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.project-card-1.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.project-card-1 a {
+    color: white;
+}
+
+.project-card-2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1.5px solid #0a0909;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    position: relative;
+    top: 15vh;
+    left: 65vh;
+    gap: 2vw;
+    width: 30vw;
+    height: 10vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    animation: fadeInUp 1.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.project-card-2.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-card-2 a {
+    color: white;
+}
+
+.project-card-3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1.5px solid #0a0a0a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    position: relative;
+    top: 20vh;
+    left: 130vh;
+    gap: 2vw;
+    width: 30vw;
+    height: 10vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    animation: fadeInRight 1.5s ease;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.project-card-3.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.project-card-3 a {
+    color: white;
+}
+
+.project-card-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card-2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card-3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    width: 100vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    position: relative;
+    top: 40vh;
+    left: -10vh;
+    padding: 20px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: zoomIn 1.5s ease;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.contact.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.contact h2 {
+    position: relative;
+    font-size: 75px;
+    color: rgb(194, 150, 247);
+    text-shadow: 1vh 0vh 0 rgb(41, 40, 40);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 2vw;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.contact h2.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.contact p {
+    font-size: 3vh;
+    gap: 50vh;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.contact p.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.email {
+    position: relative;
+    top: 10vw;
+    left: -14vw;
+}
+
+.material-symbols-outlined {
+    font-size: 2vw;
+    position: relative;
+    top: 0.6vw;
+
+}
+
+.linkedin {
+    position: relative;
+    top: 10.3vw;
+    left: -10vw;
+}
+
+.linkedin a {
+    color: white;
+}
+
+.github {
+    position: relative;
+    top: 10.3vw;
+    left: -8vw;
+}
+
+.github a {
+    color: white
+}
+
+.fab fa-linkedin {
+    font-size: 4vh;
+    top: 1.5vh;
+    position: relative;
+}
+
+.fab fa-github {
+    position: relative;
+}
+
+footer {
+    position: relative;
+    bottom: -20vw;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+} */
